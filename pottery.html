@@ -5,20 +5,25 @@
 </head>
 
 <body>
-    <nav>
-        <div class="title">Fuka Ikeda's Portfolio</div>
-        <a href="index.html">Home</a>
-        <div class="dropdown">
-            <a href="projects.html">Projects</a>
-            <div class="dropdown-content">
-                <a href="3dp.html">3DP Evaluation</a>
-                <a href="kathy.html">Kathy's Driving School</a>
-                <a href="cit.html">Paint the CIT</a>
-                <a href="pottery.html" class="active">Pottery Storage System</a>
-              </div>
+  <nav>
+    <div class="nav-header">
+      <div class="title">Fuka Ikeda's Portfolio</div>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </div>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+        <a href="projects.html">Projects</a>
+        <div class="dropdown-content">
+          <a href="3dp.html">3DP Evaluation</a>
+          <a href="kathy.html">Kathy's Driving School</a>
+          <a href="cit.html">Paint the CIT</a>
+          <a href="pottery.html" class="active">Pottery Storage System</a>
         </div>
-        <a href="about.html">About</a>
-     </nav>
+      </div>
+      <a href="about.html">About</a>
+    </div>
+  </nav>
 
 
 
@@ -114,4 +119,11 @@
           </footer>
           
         </main>
+
+        <script>
+          function toggleMenu() {
+            document.getElementById("navLinks").classList.toggle("show");
+          }
+        </script>
+        
 </body>

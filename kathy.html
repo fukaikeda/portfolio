@@ -4,22 +4,25 @@
 </head>
 
 <body>
-    <nav>
-        <div class="title">Fuka Ikeda's Portfolio</div>
-        <a href="index.html">Home</a>
-        <div class="dropdown">
-            <a href="projects.html">Projects</a>
-            <div class="dropdown-content">
-                <a href="3dp.html">3DP Evaluation</a>
-                <a href="kathy.html"  class="active">Kathy's Driving School</a>
-                <a href="cit.html">Paint the CIT</a>
-                <a href="pottery.html">Pottery Storage System</a>
-              </div>
+  <nav>
+    <div class="nav-header">
+      <div class="title">Fuka Ikeda's Portfolio</div>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </div>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+        <a href="projects.html">Projects</a>
+        <div class="dropdown-content">
+          <a href="3dp.html">3DP Evaluation</a>
+          <a href="kathy.html" class="active">Kathy's Driving School</a>
+          <a href="cit.html">Paint the CIT</a>
+          <a href="pottery.html">Pottery Storage System</a>
         </div>
-        <a href="about.html">About</a>
-     </nav>
-
-
+      </div>
+      <a href="about.html">About</a>
+    </div>
+  </nav>
 
      <main class="case-study">
         <h1>🛣️ Redesigning Kathy's Driving School Website</h1>
@@ -30,6 +33,14 @@
             information online. Many websites had outdated layouts, confusing navigation, or 
             inaccessible design. I chose Kathy's Driving School as a case study for responsive 
             web redesign.</p>
+
+            <figure class="case-image">
+              <a href="https://kathysdrivingschool.com/" target="_blank">
+                <img src="images/original.png" alt="Screenshot of original Kathy's Driving School website">
+              </a>
+              <figcaption>🔗 <a href="https://kathysdrivingschool.com/" target="_blank">Original Website</a></figcaption>
+            </figure>
+          
       
         <h2>👥 Audience</h2>
         <p>This website is primarily used by individuals looking to schedule driving lessons.
@@ -115,4 +126,11 @@
           </footer>
           
         </main>
+
+        <script>
+          function toggleMenu() {
+            document.getElementById("navLinks").classList.toggle("show");
+          }
+        </script>
+        
 </body>
