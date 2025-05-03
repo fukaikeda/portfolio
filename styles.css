@@ -1,6 +1,7 @@
 body {
     background-color: #000;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
 }
 
@@ -94,7 +95,7 @@ nav a.active {
   }
 
   .tagline{
-    font-size: 1.2rem;
+    font-size: 20px;
     font-weight: 600;
     color: white;
     text-align: center;
@@ -126,7 +127,7 @@ nav a.active {
 }
   
   .main-text h1 {
-    font-size: 2.5rem;
+    font-size: 40px;
     margin-bottom: 1rem;
     text-align: center;
     margin-bottom: 20px;
@@ -134,7 +135,7 @@ nav a.active {
   }
   
   .main-text p {
-    font-size: 1rem;
+    font-size: 16px;
     line-height: 1.7;
     margin-bottom: 1.2rem;
   }
@@ -153,7 +154,7 @@ nav a.active {
   }
   
   .case-study h1 {
-    font-size: 2.5rem;
+    font-size: 40px;
     margin-bottom: 0.5rem;
     border-bottom: 4px solid rgb(70, 162, 223);
     display: inline-block;
@@ -161,7 +162,7 @@ nav a.active {
   }
   
   .case-study .subtitle {
-    font-size: 1.2rem;
+    font-size: 20px;
     font-weight: 300;
     color: #ccc;
     margin-bottom: 2rem;
@@ -169,7 +170,7 @@ nav a.active {
   
   .case-study h2 {
     margin-top: 2.5rem;
-    font-size: 1.5rem;
+    font-size: 24px;
     border-left: 4px solid rgb(70, 162, 223);
     padding-left: 0.75rem;
   }
@@ -256,11 +257,11 @@ nav a.active {
   
   .card-text h2 {
     margin-bottom: 0.5rem;
-    font-size: 1.4rem;
+    font-size: 24px;
   }
   
   .card-text p {
-    font-size: 1rem;
+    font-size: 16px;
     color: #ccc;
   }
   
@@ -272,7 +273,7 @@ nav a.active {
   }
   
   .preview-projects h2 {
-    font-size: 2rem;
+    font-size: 16px;
     margin-bottom: 2rem;
     border-bottom: 4px solid rgb(70, 162, 223);
     display: inline-block;
@@ -307,19 +308,18 @@ nav a.active {
   }
   
   .preview-card h3 {
-    font-size: 1.2rem;
+    font-size: 20px;
     margin: 1rem 1rem 0.5rem;
   }
   
   .preview-card p {
-    font-size: 0.95rem;
+    font-size: 16px;
     margin: 0 1rem 1rem;
     color: #ccc;
   }
   
 
   .footer {
-    background-color: #111;
     color: white;
     padding: 2rem;
     text-align: center;
@@ -361,7 +361,7 @@ nav a.active {
   }
   
   .case-image figcaption {
-    font-size: 0.9rem;
+    font-size: 16px;
     color: #ccc;
     margin-top: 0.5rem;
   }
