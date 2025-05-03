@@ -1,0 +1,159 @@
+
+<head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  
+  <body>
+    <nav>
+      <div class="title">Fuka Ikeda's Portfolio</div>
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+        <a href="projects.html" class="active">Projects</a>
+        <div class="dropdown-content">
+          <a href="3dp.html" class="active">3DP Evaluation</a>
+          <a href="kathy.html">Kathy's Driving School</a>
+          <a href="cit.html">Paint the CIT</a>
+          <a href="pottery.html">Pottery Storage System</a>
+        </div>
+      </div>
+      <a href="about.html">About</a>
+    </nav>
+  
+    <main class="case-study">
+      <h1>🧩 Evaluating the 3DP User Experience</h1>
+      <p class="subtitle">Understanding how makers of all levels interact with 3D printers in a student-run space</p>
+  
+      <h2>🧩 Context</h2>
+      <p>The Brown Design Workshop (BDW) is a student makerspace used by over 1,000 members. While it fosters creativity 
+        and experimentation, the sheer volume and diversity of users often lead to usability challenges. As a monitor, I 
+        observed friction in how users interacted with our 3D printers and decided to investigate.</p>
+
+      <h2>🎯 Audience</h2>
+      <p>The BDW community includes students from diverse disciplines. Some are highly technical, while others 
+        have limited experience in fabrication. Monitors (like myself) are trained users who help facilitate safe 
+        and effective use of the space. Understanding both perspectives is key to designing inclusive workflows.
+      </p>
+  
+      <h2>🎯 Design Goal</h2>
+      <p>Improve the 3D printing experience across different user skill levels by identifying pain points in the 
+        interface and environment, and proposing actionable improvements that support learning and reduce frustration .</p>
+  
+      <h2>🧠 Research & User Feedback</h2>
+      <p>I started by studying the physical and software interface of the Prusa 3D printers—the default machines at BDW. 
+        While simple in appearance, their interface hides complexity that can confuse new users.</p>
+      
+      <figure class="case-image">
+        <img src="images/prusa.png" alt="A diagram of interactive components on the Prusa">
+        <figcaption>A diagram of interactive components on the Prusa.</figcaption>
+      </figure>
+
+      <p>One concern I had after interaction with the interface itself is how many of the settings are 'bundled' together,
+         and the difficult callibration settings are often mixed up with the print settings, which may provide a 'black hole'
+          experience for the beginning users.</p>
+
+      <p>Based on this, I conducted observational research on three users—a beginner, an intermediate user, and an expert—to understand how 
+        interactions differ by experience:</p>
+      <ul>
+        <li><strong>Beginner:</strong> Confused by printer setup and unsure of protocol; asked others for help.</li>
+        <li><strong>Intermediate:</strong> Comfortable slicing and uploading prints, but struggled to find available machines.</li>
+        <li><strong>Expert:</strong> Actively troubleshot machines and maintained them, frustrated by others' misuse.</li>
+      </ul>
+  
+      <p>I also interviewed them. Their top challenges included:</p>
+      <ul>
+        <li><strong>Beginners:</strong> Understanding settings and basic operation</li>
+        <li><strong>Intermediates:</strong> Managing failures and printer availability</li>
+        <li><strong>Experts:</strong> Dealing with systemic misuse and printer upkeep</li>
+      </ul>
+  
+      <p>Top joys included:</p>
+      <ul>
+        <li>Creativity and freedom to make anything</li>
+        <li>Quick prototyping</li>
+        <li>Access to free, high-quality tools</li>
+      </ul>
+  
+      <h2>🔁 Personas & Storyboarding</h2>
+      
+      <p>As mentioned in the last section, these users have such different experiences. Therefore, I begin to focus on a more
+        niche user. I do this by creating two personas based on the observations I conducted. They are both beginners,
+        but have different struggles.</p>
+
+        <figure class="case-image">
+            <img src="images/p1.png" alt="User that finds difficulty in asking for help">
+            <figcaption>Persona of Stephen, a tech savvy user.</figcaption>
+          </figure>
+          
+          <p class="paragraph">Stephen is tech-savvy, but he has trouble with asking for help. His biggest interface
+                issue is troubleshooting. Users like him are common, as many people traditionally have it down
+                but struggle in uncommon situations. 
+        </p>
+
+        <figure class="case-image">
+                <img src="images/p2.png" alt="User that finds difficulty in software">
+                <figcaption>Persona of Tiffany, a beginner.</figcaption>
+              </figure>
+            <p class="paragraph">Tiffany has no trouble asking for help, but the software is difficult for her to use. Her
+                biggest challenge is the software interface and settings. Users like her are common too, as many people do not
+                use the 3dp software often.
+        </p>
+
+        <h2>✏️ Storyboarding</h2>
+
+         <p>Then, I focus even more on a specific user by taking their journey and storyboarding it. This 
+            process allows us to understand the specific points in a user's journey and their emotions in each,
+            highlighting key points of improvement. </p>
+        
+            <figure class="case-image">
+                <img src='images/story1.png' 
+                alt="User walks into a makerspace and finds a 3d printer">
+            </figure>
+            <figure class="case-image">
+                <img src='images/story2.png' 
+                alt="User uses software to upload 3d print onto SD card">
+            </figure>
+            <figure class="case-image">
+                <img src='images/story3.png' 
+                alt="User runs into a callibration error and cannot fix it">
+            </figure>
+            <figure class="case-image">
+                <img src='images/story4.png' 
+                alt="User tries to find help, but feels shy and walks out">
+            </figure>
+ 
+            <p>From this activity, we can understand that the lack of support and confusion is a key point in 
+                a negative experience of a beginning user, and that it can scare away users from using the devices. This is both
+                something that the software can improve on (beginner-friendly debugging) but also the environment itself (support system).
+            </p>
+   
+      <h2>✅ Key Insights</h2>
+      <ul>
+        <li>The software is learnable but not intuitive for infrequent users.</li>
+        <li>Advanced users struggle with system-level usability, not just interface design.</li>
+        <li>Peer support and environmental design (e.g., signage, queue systems) are as important as software tweaks.</li>
+      </ul>
+  
+      <h2>📚 Takeaways</h2>
+      <p>While I can't redesign Prusa's firmware, I can make an immediate impact by:</p>
+      <ul>
+        <li>Creating better signage for troubleshooting</li>
+        <li>Training monitors to support diverse users</li>
+        <li>Urging more peer support and communication within the space</li>
+      </ul>
+      <p>This project deepened my appreciation for inclusive design in shared, physical-digital environments.</p>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+          <p>© 2025 Fuka Ikeda</p>
+          <div class="footer-links">
+            <a href="https://www.linkedin.com/in/fuka-ikeda/" target="_blank">LinkedIn</a>
+            <a href="mailto:fuka_ikeda@brown.edu">Email Me</a>
+            <a href="about.html">About</a>
+          </div>
+        </div>
+      </footer>
+      
+  </body>
+  </html>
+  
